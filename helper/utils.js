@@ -1,2 +1,2 @@
-const clientUrl = "http://localhost:7000"
+const clientUrl = ""
 module.exports = { clientUrl };

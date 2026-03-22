@@ -24,7 +24,7 @@ function setCookies(res, accessToken, refreshToken) {
     const options = {
         httpOnly: true,
         secure: process.env.NODE_ENV === "production",
-        sameSite: "lax",
+        sameSite: "none"
     };
 
     res.cookie("accessToken", accessToken, {
